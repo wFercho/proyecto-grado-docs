@@ -1,0 +1,5 @@
+-Como usario quiero ver una representación en tres dimensiones de la distribución de los nodos sensores
+- Quiero que en tiempo real se refleje, en la representación en tres dimensiones, la lectura de los sensores, pudiendo diferencia e identificar cuándo una lectura está en un rango NORMAL, de ADVERTENCIA y de PELIGRO.
+- Como usuario quiero contar con la posibilidad de registrar sensores que se encuentren permitidos para su uso en el contexto (de caracter semi-industrial).
+- Quiero poder definir los rangos en los que un sensor puede indicar alguno de los tres estados de NORMAL, ADVERTENCIA o PELIGRO.
+- Como usuario necesito un mecanismo que me permita saber qué sensores se encuentran registrado, cuales de esos se encuentran en uso y cuales no.
