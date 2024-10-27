@@ -114,3 +114,6 @@ El **id** del sensor es un dato que se genera automaticamente, por lo que en el 
 
 ```
 
+## Roles
+- Administrador: Tiene los permisos de CRUD sobre el Módulo de Gestión de Normativas, Módulo de Interoperabilidad (gestión de topics MQTT).
+- Operador: Tiene los permisos de vista a los módulos de visualización de datos 3D en tiempo real, registro de sensores.
