@@ -1,0 +1,1 @@
+- Actualizar los datos que hacen referencia a la mortalidad y accidentalidad, ya que los plasmados en el documento son del 2020
