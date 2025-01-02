@@ -1,10 +1,17 @@
 # **Documento de Diseño: Sistema IoT para Monitoreo de Minas Subterráneas**
 
 ## **Antecedentes**
-El proyecto busca prevenir desastres y generar alertas oportunas para agencias como la Agencia Nacional Minera y el Ministerio de Minas. Se enfoca en minas de carbón de la provincia de Sugamuxi, Boyacá, que presentan altas tasas de accidentalidad, especialmente en empresas medianas y pequeñas.
+Boyacá, según datos de la Agencia Nacional Minera, es el departamento con mayor tasa de accidentalidad y mortalidad en Colombia, siendo la mineria subterranea de carbón la que más registros asociados tiene. Con la implementación de tecnología podemos abordar esta problematica apuntando no solo a disminuir la tasa de accidentalidad y mortalidad minera en el departamento, sino que también podemos contribuir en la mejora de las condiciones laborales de los mineros y demás trabajadores involucrados. 
+El proyecto planteado, siendo parte de un proyecto de Sistema IoT, busca a nivel de capa de aplicación el determinar y diseñar, módulos que funcionalmente vayan orientados a la prevención de desastres y generación de alertas oportunas para partes interesadas como lo pueden ser la Agencia Nacional Minera, el Ministerio de Minas, organismos de prevención y asistencia a desastres, entre otros. 
+
+Adicionalmente la gestión de sensores y dispositivos IoT que podemos encontrar en las capas inferiores de un sistema IoT.
 
 ## **Problema**
-Actualmente, las herramientas de monitoreo son insuficientes, y se requiere una solución integrada para la gestión de sensores y el cumplimiento de normas de seguridad.
+Los diferentes sistemas IoT desarrollados a dia de hoy para la industria minera contemplan a nivel costos y complejidad minas grandes, escenario muy diferente al encontrado en la mineria del departamento de Boyacá.
+
+Con el fin de reducir costos se analizan soluciones de código libre, pero se identifica baja capacidad funcional para lo requerido en este contexto.
+
+Por tanto, se llega a la conclusión de que es necesario diseñar y determinar una solución que considere el contexto de empresas mineras pequeñas.
 
 ## **Objetivos**
 1. **Prevención y Alertas**: Facilitar la toma de decisiones durante emergencias con datos en tiempo real.
@@ -49,6 +56,11 @@ Desarrollo de un sistema IoT con los siguientes módulos:
 ![Diagrama de Dependencia de Módulos](./imgs/diagrama_dependencia_modulos.png)
 ## Diagrama de Microservicios y dependencia entre ellos
 ![Diagrama de Microservicios](./imgs/diagrama_modulos_a_microservicios.png)
+## MockUps UI
+### Flujo de Navegación del Inicio de Sesión
+![Flujo de Navegación del Inicio de Sesión](./imgs/1_ui.svg)
+### Flujo de Navegación principal y otras vistas
+![Flujo de Navegación principal y otras vistas](./imgs/2_ui.svg)
 ## Registro de Sensores
 ### UI
 ![Selección de variable(s) del sensor](./imgs/ui_registro_sensores_part_1.png)
