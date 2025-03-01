@@ -1,4 +1,4 @@
-**Nota:** Los roles iniciales son administrador y usuario (no administrador), la idea es definir politicas y/o permisos que desde un administrador se puedan otorgar a un usuario normal, por ejemplo, un usuario normal únicamente tiene permisos para consulta de datos en tiempo real, sensores registrados y demás, pero puede existir el caso en el que un administrador le otogue permisos de registro (y por tanto de modificación) de sensores en el sistema, pude también darse el caso en el que un usuario además tenga permisos para edición y registro de minas.
+**Nota:** Los roles iniciales son administrador y usuario (no administrador), la idea es definir politicas y/o permisos que desde un administrador se puedan otorgar a un usuario normal, por ejemplo, un usuario normal únicamente tiene permisos para consulta de datos en tiempo real, sensores registrados y demás, pero puede existir el caso en el que un administrador le otorgue permisos de registro (y por tanto de modificación) de sensores en el sistema, pude también darse el caso en el que un usuario además tenga permisos para edición y registro de minas.
 
 ### Módulo de Registro y Busqueda de Sensores
 
