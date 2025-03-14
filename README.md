@@ -2,25 +2,33 @@
 
 ## **Antecedentes**
 Boyacá, según datos de la Agencia Nacional Minera, es el departamento con mayor tasa de accidentalidad y mortalidad en Colombia, siendo la mineria subterranea de carbón la que más registros asociados tiene. Con la implementación de tecnología podemos abordar esta problematica apuntando no solo a disminuir la tasa de accidentalidad y mortalidad minera en el departamento, sino que también podemos contribuir en la mejora de las condiciones laborales de los mineros y demás trabajadores involucrados. 
-El proyecto planteado busca, a nivel de capa de aplicación de un Sistema IoT, el determinar y diseñar módulos que funcionalmente vayan orientados a la prevención de desastres y generación de alertas oportunas para partes interesadas como lo pueden ser la Agencia Nacional Minera, el Ministerio de Minas, organismos de prevención y asistencia a desastres, entre otros. A partir de lo anterior se infiere inicialmente la gestión de sensores y dispositivos IoT que podemos encontrar en las capas inferiores de un sistema IoT.
+El proyecto planteado busca, a nivel de capa de aplicación de un Sistema IoT, el determinar y diseñar módulos que funcionalmente vayan orientados a la prevención de desastres y generación de alertas oportunas para partes interesadas como lo pueden ser la Agencia Nacional Minera, el Ministerio de Minas, organismos de prevención y asistencia a desastres, entre otros.~~A partir de lo anterior se infiere inicialmente la gestión de sensores y dispositivos IoT que podemos encontrar en las capas inferiores de un sistema IoT.~~
 
 ## **Problema**
 Los diferentes sistemas IoT desarrollados a dia de hoy para la industria minera en su mayoría fueron diseñados e implementados para minas grandes con capacidad economica superior a la de minas medianas y pequeñas, del departamento de Boyacá.
 
-Con el fin de reducir costos se analizan soluciones de código libre, pero se identifica baja capacidad funcional para lo requerido en este contexto. Adicionalmente encontramos soluciones de código libre, como la versión community de [Thingsboard](https://thingsboard.io/) que, a pesar de ser una solución bastante completa, no cubre el registro de sensores y dispositivos IoT que estén aprobados bajo alguna normativa que indique su uso seguro en minas subterraneas de carbón.
+Con el fin de reducir costos se analizan soluciones de código libre, pero se identifica baja capacidad funcional para lo requerido en este contexto. Adicionalmente encontramos soluciones de código libre, como la versión community de [Thingsboard](https://thingsboard.io/) que, a pesar de ser una solución bastante completa para la implementación de IoT, no cubre el registro de sensores y dispositivos IoT que estén aprobados bajo alguna normativa que indique su uso seguro en minas subterraneas de carbón.
 
 Por tanto, se llega a la conclusión de que es necesario diseñar y determinar una solución que considere el contexto de empresas mineras pequeñas, que sea de código libre y que vaya alineada con normativas seguidas por organismos gubernamentales del país como la Agencia Nacional Minera.
 
 ## **Objetivos**
-- Clasificar y diseñar de microservicios basados en las necesidades de seguridad y salud en el trabajo en minas de la provincia de Sugamuxi.
+El objetivo general es el de _desarrollar la capa de aplicación de un sistema IoT utilizando microservicios para el monitoreo de variables en minas subterráneas_. Teniendo como objetivos especificos:
+- Clasificar y diseñar microservicios basados en las necesidades de seguridad y salud en el trabajo en minas de la provincia de Sugamuxi.
 - Diseñar la capa de aplicación de un sistema IoT utilizando microservicios para el monitoreo de variables ambientales y fisiológicas en minas subterráneas en la provincia de Sugamuxi, Boyacá, enfocado en la seguridad de las labores mineras.
 - Desarrollar un prototipo de sistema IoT con base en el diseño anteriormente planteado.
+- Realizar pruebas de integración del sistema IoT para asegurar su funcionalidad y eficacia en el monitoreo de variables ambientales y fisiológicas en entornos mineros.
 
 
 ## **No Objetivos**
 1. Manejo de minas fuera de la provincia de Sugamuxi.
 2. Aplicaciones específicas para el usuario final más allá de la visualización de datos y generación de alertas.
 
+## Contexto
+Actualmente encontramos sistemas IoT que difieren en su implementación debido al contexto en el que se aplica. IIoT encapsula lo que es la implentación de IoT en la industria, por lo que dependiendo de a cuál se esté aplicando, variarán detalles de implementación.
+
+Respecto a un estandar para la implementación de IoT no encontramos un concenso que nos indique una unica arquitectura ideal. Para poder hablar de estandares nos tenemos que ir un nivel más arriba en lo conceputal, donde encontramos normativas como el **ISO/IEC 30141** que nos brindan un estandar por el cual se presenta una arquitectura de referencia para IoT, estableciendo un marco común para el diseño y desarrollo de aplicaciones IoT, además de recursos adicionales alineados con este fin.
+
+También encontramos documentación relacionada como la definida en **OneM2M**, **NGSI-LD**, **Matter** que en lo conceptual no nos ofrece tanto como lo presente en la **ISO/IEC 30141**.
 ## **Solución Propuesta**
 Desarrollo de la capa de aplicación de un sistema IoT con los siguientes módulos:
 
