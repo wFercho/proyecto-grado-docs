@@ -62,7 +62,7 @@ Desarrollo de la capa de aplicación de un sistema IoT con los siguientes módul
 ![Diagrama de Dependencia de Módulos](./imgs/diagrama_dependencia_modulos.png)
 ## Diagrama de Microservicios y dependencia entre ellos
 ![Diagrama de Microservicios](./imgs/diagrama_modulos_a_microservicios.png)
-![Diagrama de Arquitectura](./imgs/arquitectura_1.svg)
+![Diagrama de Arquitectura](./imgs/architecture_diagram.png)
 ## MockUps UI
 ### Flujo de Navegación del Inicio de Sesión
 ![Flujo de Navegación del Inicio de Sesión](./imgs/1_ui.svg)
